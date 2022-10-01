@@ -19,16 +19,16 @@ public class Calculadora {
         System.out.println("multiplicação: " + multiplicar);
         System.out.println("divisão: " + dividir);
     }
-    public static int somar(int a, int b){
+    public static int somar(int a, int b) {
         return a + b;
     }
-    public static int subitrair(int a, int b){
+    public static int subitrair(int a, int b) {
         return a - b;
     }
-    public static int multiplicar(int a, int b){
+    public static int multiplicar(int a, int b) {
         return a * b;
     }
-    public static double dividir(int a, int b){
-        return (double)a / b;
+    public static double dividir(int a, int b) {
+        return (double) a / b;
     }
 }
